@@ -5,6 +5,21 @@ body {
     background-color: #E1C699; 
   }
   
+  .about-me {
+    align-items: center; /* This will vertically center the items in the container */
+   margin: 2em; /* Adjust as needed for spacing */
+   background-color: #fff; /* Background color for the about me section */
+   padding: 2em; /* Padding around the content */
+   border: 5px solid #000; /* Add a black border around the section */
+ }
+ 
+ .about-image {
+   max-width: 200px; /* Adjust as needed */
+   margin-right: 2em; /* Space between the image and the text */
+   border: 3px solid #000; /* Black border around the image */
+ }   display: flex;
+
+ 
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -24,11 +39,14 @@ body {
     color: #FFFFFF; 
   
   background-color: #000000
+   
+  /* Ken Abraham intro image */
+
+   
+  /* Ken Abraham intro image */
+ 
+ 
   
-  .intro {
-    text-align: center;
-    padding: 2em;
-  }
   
   .projects {
     display: grid;
