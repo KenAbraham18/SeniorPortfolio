@@ -60,7 +60,7 @@ body {
     margin: 0 5px; /* Space between navbar links */
     transition: all 0.3s ease; /* Smooth transition for hover effects */
   
-    .navbar a:hover {
+  .navbar a:hover {
       border: 2px solid #FFFFFF; /* Adds a white border on hover */
       padding: 8px 13px; /* Adjust padding to compensate for the border thickness */
     }

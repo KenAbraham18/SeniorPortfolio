@@ -1,72 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #E1C699; 
-  }
-  
-  .about-me {
-    align-items: center; /* This will vertically center the items in the container */
-   margin: 2em; /* Adjust as needed for spacing */
-   background-color: #fff; /* Background color for the about me section */
-   padding: 2em; /* Padding around the content */
-   border: 5px solid #000; /* Add a black border around the section */
- }
- 
- .about-image {
-   max-width: 200px; /* Adjust as needed */
-   margin-right: 2em; /* Space between the image and the text */
-   border: 3px solid #000; /* Black border around the image */
- }   display: flex;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E1C699; /* Solid color background */
+}
 
- 
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background: #9A652E; 
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #FFFFFF; 
-  
-  background-color: #000000
-   
-  /* Ken Abraham intro image */
+/* Copy the rest of the navbar CSS from style.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: #9A652E; 
+}
 
-   
-  /* Ken Abraham intro image */
- 
- 
-  
-  
-  .projects {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
-    padding: 1em;
-  }
-  
-  .project {
-    padding: 1em;
-  }
-  
-  .project img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px; /* Optional, for rounded corners on images */
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 1em;
-    background: #f8f8f8; /* Change to desired footer background color */
-  }
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 15px; /* Adjust padding as needed */
+  display: inline-block; /* Allows the application of padding and border */
+  margin: 0 5px; /* Space between navbar links */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.navbar a:hover {
+  border: 2px solid #FFFFFF; /* Adds a white border on hover */
+  padding: 8px 13px; /* Adjust padding to compensate for the border thickness */
+}
