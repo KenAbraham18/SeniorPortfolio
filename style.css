@@ -78,7 +78,23 @@ body {
     padding: 20px 0;
   }
   
+  .outer-box {
+    background-color: #D2B48C; /* Tan background color */
+    width: 100%; /* Full width of the container */
+    height: 300px; /* Height of the container */
+    position: relative; /* Position relative for absolute positioning inside */
+    /* Other styling */
+  }
   
+  .darker-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Dark transparent overlay */
+    width: 80%; /* Width of the darker box */
+    height: 50%; /* Height of the darker box */
+    position: absolute; /* Absolute position inside the outer box */
+    top: 25%; /* Position from the top of the outer box */
+    left: 10%; /* Position from the left of the outer box */
+    /* Additional styling */
+  }
   
   
   .projects {
