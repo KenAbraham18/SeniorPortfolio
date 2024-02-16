@@ -1,60 +1,111 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #E1C699;
-    /* Solid color background */
-  }
-  
-  /* Copy the rest of the navbar CSS from style.css */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-    background: #9A652E;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    gap: 1em;
-  }
-  
-  .navbar a {
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 10px 15px;
-    /* Adjust padding as needed */
-    display: inline-block;
-    /* Allows the application of padding and border */
-    margin: 0 5px;
-    /* Space between navbar links */
-    transition: all 0.3s ease;
-    /* Smooth transition for hover effects */
-  }
-  
-  .navbar a:hover {
-    border: 2px solid #FFFFFF;
-    /* Adds a white border on hover */
-    padding: 8px 13px;
-    /* Adjust padding to compensate for the border thickness */
-  }
-  
-  .collage-image {
-    position: absolute;
-    /* Position the image absolutely within its parent */
-    top: 55%;
-    /* Adjust this value to move the image up or down */
-    left: 50%;
-    /* Adjust this value to move the image left or right */
-    transform: translate(-50%, -50%);
-    /* This centers the image at the given top/left values */
-    /* Set width or max-width as needed to scale the image */
-    width: auto;
-    /* Adjust or use 'max-width' for responsiveness */
-    max-width: 50%;
-    /* Ensures the image is responsive and doesn't overflow its container */
-    height: auto;
-    /* Keeps the image's aspect ratio intact */
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #E1C699;
+  /* Solid color background */
+}
+
+/* Copy the rest of the navbar CSS from style.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background: #9A652E;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  /* Adjust padding as needed */
+  display: inline-block;
+  /* Allows the application of padding and border */
+  margin: 0 5px;
+  /* Space between navbar links */
+  transition: all 0.3s ease;
+  /* Smooth transition for hover effects */
+}
+
+.navbar a:hover {
+  border: 2px solid #FFFFFF;
+  /* Adds a white border on hover */
+  padding: 8px 13px;
+  /* Adjust padding to compensate for the border thickness */
+}
+
+/* Ken Abraham intro image */
+.intro img {
+  float: left;
+  /* Aligns image to the left */
+  margin-right: 50px;
+  /* Adds space between the image and the following content */
+  /* Add additional styling as needed */
+  display: block;
+  /* image is treated as a block-level element */
+  margin: 0 auto;
+  /* center the image within its container */
+  max-width: 100%;
+  /* image is responsive and does not overflow its container */
+}
+
+.intro {
+  text-align: center;
+  /* Center the content horizontally */
+  padding: 20px;
+}
+
+.collage-image {
+  position: absolute;
+  /* Position the image absolutely within its parent */
+  top: 65%;
+  /* Adjust this value to move the image up or down */
+  left: 50%;
+  /* Adjust this value to move the image left or right */
+  transform: translate(-50%, -50%);
+  /* This centers the image at the given top/left values */
+  /* Set width or max-width as needed to scale the image */
+  width: auto;
+  /* Adjust or use 'max-width' for responsiveness */
+  max-width: 50%;
+  /* Ensures the image is responsive and doesn't overflow its container */
+  height: auto;
+  /* Keeps the image's aspect ratio intact */
+}
+
+
+.skills-image {
+  position: absolute;
+  /* Position the image absolutely within its parent */
+  top: 150%;
+  /* Adjust this value to move the image up or down */
+  left: 50%;
+  /* Adjust this value to move the image left or right */
+  transform: translate(-50%, -50%);
+  /* This centers the image at the given top/left values */
+  /* Set width or max-width as needed to scale the image */
+  width: auto;
+  /* Adjust or use 'max-width' for responsiveness */
+  max-width: 50%;
+  /* Ensures the image is responsive and doesn't overflow its container */
+  height: auto;
+  /* Keeps the image's aspect ratio intact */
+}
+
+
+button {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 80px; /* Place the button at the bottom of the page */
+  right: 1430px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it sits on top of other content */
+  cursor: pointer; /* Add a pointer on hover */
+  padding: 15px; /* Add some padding inside the button */
+  border-radius: 10px; /* Optional: Round corners */
+}
