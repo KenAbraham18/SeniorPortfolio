@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1C699;
+    /* Solid color background */
+  }
+  
+  /* Copy the rest of the navbar CSS from style.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: #9A652E;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    /* Adjust padding as needed */
+    display: inline-block;
+    /* Allows the application of padding and border */
+    margin: 0 5px;
+    /* Space between navbar links */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+  }
+  
+  .navbar a:hover {
+    border: 2px solid #FFFFFF;
+    /* Adds a white border on hover */
+    padding: 8px 13px;
+    /* Adjust padding to compensate for the border thickness */
+  }
+  
+  .box {
+    position: absolute;
+    width: 15%;
+    /* Or however wide you want the box to be */
+    height: 15vh;
+    /* 80% of the viewport height */
+    margin: 50px auto;
+    /* This centers the box in the page and adds some space from the navbar */
+    background-color: #9A652E;
+    /* This is a brown color; adjust as needed */
+    display: flex;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    /* ... any additional styles ... */
+    left: 5%;
+  
+  }
+
+  .about-me-header {
+    display: block;
+    /* Ensures the img is a block-level element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    max-width: 90%;
+    /* Ensures the image is responsive and does not overflow its container */
+    position: absolute;
+    /* Position the image absolutely within its parent */
+    top: 5px;
+    /* Distance from the top edge of the parent container */
+    left: 5%;
+  
+    height: auto;
+    /* Keeps the image's aspect ratio intact */
+  }
