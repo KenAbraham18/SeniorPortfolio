@@ -96,9 +96,9 @@ body {
 .text-content {
   position: absolute;
   /* Absolute positioning within the parent */
-  top: 50%;
+  top: 44%;
   /* Positioned halfway down the parent */
-  left: 50%;
+  left: 53%;
   /* Positioned halfway across the parent */
   transform: translate(-50%, -50%);
   /* Centers the content */

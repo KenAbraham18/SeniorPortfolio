@@ -61,6 +61,26 @@ body {
   
   }
 
+  .box2 {
+    position: absolute;
+    width: 55%;
+    /* Or however wide you want the box to be */
+    height: 15vh;
+    /* 80% of the viewport height */
+    margin: 50px auto;
+    /* This centers the box in the page and adds some space from the navbar */
+    background-color: #9A652E;
+    /* This is a brown color; adjust as needed */
+    display: flex;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    /* ... any additional styles ... */
+    left: 5%;
+  
+  }
+
   .about-me-header {
     display: block;
     /* Ensures the img is a block-level element */
