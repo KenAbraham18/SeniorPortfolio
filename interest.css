@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E1C699;
+    /* Solid color background */
+  }
+  
+  /* Copy the rest of the navbar CSS from style.css */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background: #9A652E;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1em;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    /* Adjust padding as needed */
+    display: inline-block;
+    /* Allows the application of padding and border */
+    margin: 0 5px;
+    /* Space between navbar links */
+    transition: all 0.3s ease;
+    /* Smooth transition for hover effects */
+  }
+  
+  .navbar a:hover {
+    border: 2px solid #FFFFFF;
+    /* Adds a white border on hover */
+    padding: 8px 13px;
+    /* Adjust padding to compensate for the border thickness */
+  }
+  
+  .box {
+    width: 72%;
+    /* Or however wide you want the box to be */
+    height: 60vh;
+    /* 80% of the viewport height */
+    margin: 75px auto;
+    /* This centers the box in the page and adds some space from the navbar */
+    background-color: #9A652E;
+    /* This is a brown color; adjust as needed */
+    display: flex;
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    /* ... any additional styles ... */
+  }
+  
+  .about-me-header {
+    display: block;
+    /* Ensures the img is a block-level element */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+    max-width: 15%;
+    /* Ensures the image is responsive and does not overflow its container */
+    position: absolute;
+    /* Position the image absolutely within its parent */
+    top: 250px;
+    /* Distance from the top edge of the parent container */
+    left: 41%;
+  
+    height: auto;
+    /* Keeps the image's aspect ratio intact */
+  }
+  
+  .collage-image {
+    position: absolute;
+    /* Position the image absolutely within its parent */
+    top: 50%;
+    /* Adjust this value to move the image up or down */
+    left: 25%;
+    /* Adjust this value to move the image left or right */
+    transform: translate(-50%, -50%);
+    /* This centers the image at the given top/left values */
+    /* Set width or max-width as needed to scale the image */
+    width: auto;
+    /* Adjust or use 'max-width' for responsiveness */
+    max-width: 25%;
+    /* Ensures the image is responsive and doesn't overflow its container */
+    height: auto;
+    /* Keeps the image's aspect ratio intact */
+  }
+  
+  .text-content {
+    position: absolute;
+    /* Absolute positioning within the parent */
+    top: 44%;
+    /* Positioned halfway down the parent */
+    left: 53%;
+    /* Positioned halfway across the parent */
+    transform: translate(-50%, -50%);
+    /* Centers the content */
+    color: #fff;
+    /* Text color - change as needed */
+    width: 40%;
+    /* Adjust the width as needed */
+    text-align: left;
+    /* Align the text to the left */
+    padding: 100px;
+    /* Add padding as needed */
+    box-sizing: border-box;
+    /* Includes padding in the width */
+    /* Add other styles like font-size, line-height as needed */
+  }
+  
+  /* Adjust styles for <p> or other text elements inside .text-content as needed */
+  .text-content p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+    /* Use 400 for regular weight text */
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 0 0 -25px;
+  }
+  
